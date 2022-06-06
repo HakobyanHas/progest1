@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&display=swap');
+
+:root {
+    --black: #2b2a2c;
+    --gray: #6a696b;
+    --gray-light: #dedede;
+    --white: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    width: 200px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 21px 30px;
+    color: var(--gray);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid var(--gray);
+    border-radius: 50px;
+    background: none;
+}
+.btn:hover{
+    background-color:var(--gray);
+    color: var(--white);
+}
+
+/* =================HEADER================ */
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.user {
+    display: flex;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.user_content {
+    margin-left: 10px;
+}
+
+.user_name {
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.user_prof {
+    font-size: .75rem;
+    color: var(--gray);
+
+}
+
+.nav_link {
+    font-size: .9rem;
+    color: var(--black);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 54px;
+}
+
+.nav_link:hover {
+    border-bottom: 3px solid var(--black);
+    padding-bottom: 5px;
+}
+
+
+/* ===========================INTRO======================== */
+
+.intro_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--gray-light);
+    padding-bottom: .8rem;
+}
+
+.intro_subtitle {
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: 200;
+
+}
+
+.intro_title {
+    font-size: 45px;
+    color: var(--black);
+    font-weight: bold;
+
+}
+
+.intro_text {
+    font-size: 18px;
+    color: var(--gray);
+
+
+}
+
+.social {
+    margin-top: 24px;
+    margin-bottom: 37px;
+    display: flex;
+
+
+}
+
+.social_link {
+    margin-right: 11px;
+}
+
+.social_link:hover {
+    transform: rotate(30deg);
+}
