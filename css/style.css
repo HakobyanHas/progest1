@@ -134,7 +134,7 @@ body {
 .social_link {
     margin-right: 11px;
 }
-
+/*Երբ մկնիկը մոտեցնում ենք թեքվում ա օրինակ 30 աստիճանի տակ*/
 .social_link:hover {
     transform: rotate(30deg);
 }
